@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,600&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Josefin+Sans&family=Raleway:ital,wght@1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+.heading3 {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: .2px;
+  font-weight: bolder;
+  line-height: 2;
+  font-size: 12px;
+  word-spacing: 8px;
+}
+
+.heading4 {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: .2px;
+  font-weight: 500;
+  line-height: 2;
+  font-size: 15px;
+  word-spacing: 8px;
+}
+
+
+.heading5 {
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: .2px;
+  /* font-weight: 500; */
+  line-height: 2;
+  font-size: 15px;
+  word-spacing: 8px;
+}
+
+.heading6 {
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: .2px;
+  font-weight: 500;
+  line-height: 2;
+  font-size: 17px;
+  word-spacing: 8px;
+}
+
+
+.heading7 {
+  font-family: 'Cinzel', serif;
+
+  letter-spacing: .2px;
+  font-weight: 600;
+  line-height: 2;
+  font-size: 23px;
+  word-spacing: 8
+}
+
+.heading8 {
+  font-family: 'Raleway', sans-serif;
+
+  letter-spacing: .2px;
+  font-weight: 600;
+  line-height: 2;
+  font-size: 18px;
+  word-spacing: 8
+}
+
+.heading9 {
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: .2px;
+  font-weight: 500;
+  line-height: 1.4;
+  font-size: 17px;
+  word-spacing: 8px;
+}
+
+.carousel-img {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card1 {
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 4px 4px 4px 4px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.zoom-out img {
+  transition: transform 0.5s ease;
+}
+
+.zoom-out:hover img {
+  transform: scale(0.9);
+}
+
+.cardish {
+  padding: 30px;
+}
+
+.img10 {
+  height: auto;
+  max-width: 100%;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.heading10 {
+  font-family: 'Lora', sans-serif;
+  font-size: 30px;
+  color: #7a7a7a;
+}
+
+.primary-title {
+  margin-bottom: 15px;
+  line-height: 1.8;
+  color: #6b6b84;
+}
+
+.about .card {
+  padding: 30px 0;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 0 #dbdbdb;
+  border: none;
+  height: 100%;
+}
+
+.about .card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-text1,
+.primary-text {
+  line-height: 30px;
+  margin: 0;
+}
+
+.about {
+  background-color: #f7f5f1;
+  background-image: url('./assets/images/bg-img.png');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px 0;
+
+}
+
+.primary-header {
+  font-size: 38px;
+  line-height: 1.2em;
+  margin-bottom: 32px;
+  font-weight: 300
+}
+
+.boxing {
+  padding: 20px;
+
+}
+
+.listing span {
+  color: green;
+}
+
+.shadow-1 {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+footer {
+  background-color: #222;
+  padding: 70px 0 20px;
+  overflow: hidden
+}
+
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #f81f1f;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.back-to-top i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  background: #f81f1f;
+  color: #fff;
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+.bg1 {
+  background-color: black;
+}
+
+.footer-border {
+  border-color: #0e0e0e !important
+}
+
+
+
+.linkish {
+  cursor: pointer;
+}
+
+
+
+
+/* .footer-contact .footer-text:hover{
+  color: var(--sonika-tertary-color) !important;
+} */
+
+@media (max-width:768px) {
+  .carousel-img {
+    height: 400px;
+  }
+
+}
