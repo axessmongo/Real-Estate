@@ -60,7 +60,7 @@ export default function About() {
             <section className='' id='home'>
                 <nav class="navbar navbar-expand-lg nav-banner" id=''>
                     <div class="container-fluid">
-                        <a class="navbar-brand heading5" href="#" style={{ color: "white" }}>Home<span style={{ color: "#f81f1f ", }}>Services</span></a>
+                        <a class="navbar-brand heading5" href="#" style={{ color: "white" }}>Home<span style={{ color: "#f81f1f ", }}>Real Estate</span></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -72,7 +72,7 @@ export default function About() {
                                 </li>
 
                                 <li class="nav-item heading5 ">
-                                    <a class="nav-link active px-3 " aria-current="page" id='name-nav' onClick={() => gotoTop('our Services')}>Our Services</a>
+                                    <a class="nav-link active px-3 " aria-current="page" id='name-nav' onClick={() => gotoTop('our Services')}>Services</a>
                                 </li>
 
                                 <li class="nav-item heading5">
