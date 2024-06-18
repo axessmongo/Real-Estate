@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import React, { useEffect } from 'react';
 import img1 from '../assets/images/img1.jpg'
 import img2 from '../assets/images/img2.jpg'
 import img3 from '../assets/images/img3.jpg'
@@ -28,10 +29,9 @@ import Footer from './Footer';
 import Scroll from './Scroll';
 export default function About() {
     const [active, setActive] = useState(false)
-    AOS.init({
-        // Add your AOS options here
-    });
-
+    useEffect(() => {
+        AOS.init(); // Initialize AOS
+    }, []);
     const [isZoomed, setIsZoomed] = useState(false);
     let gotoTop = (secID) => {
         const element = document.getElementById(secID);
@@ -55,12 +55,12 @@ export default function About() {
 
     gotoTop();
     return (
-        <div>
+        <div id='overflow-x-hidden'>
 
             <section className='' id='home'>
                 <nav class="navbar navbar-expand-lg nav-banner" id=''>
                     <div class="container-fluid">
-                        <a class="navbar-brand heading5" href="#" style={{ color: "white" }}>Home<span style={{ color: "#f81f1f ", }}>Real Estate</span></a>
+                        <a class="navbar-brand heading5" href="#">Real<span style={{ color: "#f81f1f ", }}>Estate</span></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -95,6 +95,11 @@ export default function About() {
                 </nav>
             </section>
 
+            {/* <div className='buy-now d-flex justify-content-center align-items-center rounded-2'>
+                <a href="https://axesstechnology.in/contact" target='_blank'>
+                <button className='buy-now-bt'>BuyNow</button></a>
+            </div> */}
+
             <section className='container-fluid' >
                 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
@@ -123,11 +128,13 @@ export default function About() {
             </section>
 
             <section id=''>
+                <div data-aos="zoom-in" data-aos-duration="1000" >
                 <h4 className='heading10 mt-5 text-center' style={{ color: "black" }}> Welcome To Houzez</h4>
                 <p className='primary-title heading4 text-center mt-4' >Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                </div>
                 <div className="container">
                     <div className="col-md-12 row justify-content-center align-items-center mt-4">
-                        <div className="col-lg-4 col-md-6 cardish" >
+                        <div className="col-lg-4 col-md-6 cardish" data-aos="fade-down-right" data-aos-duration="1000">
                             <div className='card1'>
                                 <div class="card zoom-out mt-2 " style={{ border: "none" }}>
                                     <img src={img4} class="card-img-top img10" alt="..." />
@@ -142,7 +149,7 @@ export default function About() {
 
 
                         </div>
-                        <div className="col-lg-4 col-md-6 cardish">
+                        <div className="col-lg-4 col-md-6 cardish" data-aos="flip-up" data-aos-duration="1000">
                             <div className='card1'>
                                 <div class="card zoom-out mt-2 " style={{ border: "none" }}>
                                     <img src={img5} class="card-img-top img10" alt="..." />
@@ -156,7 +163,7 @@ export default function About() {
                             </div>
 
                         </div>
-                        <div className="col-lg-4 col-md-6 cardish">
+                        <div className="col-lg-4 col-md-6 cardish" data-aos="fade-down-left" data-aos-duration="1000">
                             <div className='card1'>
                                 <div class="card zoom-out mt-2" style={{ border: "none" }}>
                                     <img src={img6} class="card-img-top img10" alt="..." />
@@ -180,23 +187,23 @@ export default function About() {
                         <h4 className='heading10 mt-5 text-center' style={{ color: "black" }}> Our Services</h4>
 
                         <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2 aos-init aos-animate">
-                            <div class="card ">
-                                <div class="card-body">
+                            <div class="card " data-aos="zoom-in" data-aos-duration="1000">
+                                <div class="card-body" >
                                     <h4 class="card-title primary-header card1-header mb-3 ">200 +</h4>
                                     <p class="secondary-color card-text1 heading6"> Consultations</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2 aos-init aos-animate">
-                            <div class="card">
+                            <div class="card" data-aos="zoom-in" data-aos-duration="1000">
                                 <div class="card-body">
                                     <h4 class="card-title primary-header card1-header mb-3">95 %</h4>
                                     <p class="secondary-color card-text1 heading6"> Client satisfaction</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                            <div class="card">
+                        <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2" >
+                            <div class="card" data-aos="zoom-in" data-aos-duration="1000">
                                 <div class="card-body text-center">
                                     <h4 class="card-title primary-header card1-header mb-3">10 +</h4>
                                     <p class="secondary-color card-text1 heading6"> Years of legal consultation</p>
@@ -204,7 +211,7 @@ export default function About() {
                             </div>
                         </div>
                         <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2 aos-init aos-animate">
-                            <div class="card">
+                            <div class="card" data-aos="zoom-in" data-aos-duration="1000">
                                 <div class="card-body">
                                     <h4 class="card-title primary-header card1-header mb-3">50 +</h4>
                                     <p class="secondary-color card-text1 heading6"> Cases won</p>
@@ -212,7 +219,7 @@ export default function About() {
                             </div>
                         </div>
                         <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2 aos-init aos-animate">
-                            <div class="card">
+                            <div class="card" data-aos="zoom-in" data-aos-duration="1000">
                                 <div class="card-body">
                                     <h4 class="card-title primary-header card1-header mb-3">50 +</h4>
                                     <p class="secondary-color card-text1 heading6"> Legal matters</p>
@@ -223,57 +230,58 @@ export default function About() {
                     </div>
                 </div>
             </section>
+
             <section id='our Amenities'>
                 <h4 className='heading10 mt-5 text-center' style={{ color: "black" }}> Amenities</h4>
                 <p className='primary-title heading4 text-center mt-4' >Complete List of Amenities and Features </p>
                 <div className="container ">
                     <div className="row justify-content-space-between align-items-center mt-3 px-5 gy-5 ">
                         <div className="col-md-3 listing">
-                            <p className='heading6'><span>✔</span> Washer and Dryer </p>
-                            <p className='heading6'><span>✔</span> Air Conditioning</p>
-                            <p className='heading6'><span>✔</span> Patio</p>
-                            <p className='heading6'><span>✔</span> Furniture</p>
-                            <p className='heading6'><span>✔</span> Hardwood Floors</p>
-                            <p className='heading6'><span>✔</span> Dishwasher</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Washer and Dryer </p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Air Conditioning</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Patio</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Furniture</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Hardwood Floors</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Dishwasher</p>
                         </div>
                         <div className="col-md-3 listing">
-                            <p className='heading6'><span>✔</span> Fireplace </p>
-                            <p className='heading6'><span>✔</span> Wi-Fi</p>
-                            <p className='heading6'><span>✔</span> Surround sound</p>
-                            <p className='heading6'><span>✔</span> Built-in dressing vanities</p>
-                            <p className='heading6'><span>✔</span> Separate shower</p>
-                            <p className='heading6'><span>✔</span> Rainshower heads</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Fireplace </p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Wi-Fi</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Surround sound</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Built-in dressing vanities</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Separate shower</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Rainshower heads</p>
                         </div>
                         <div className="col-md-3 listing">
-                            <p className='heading6'><span>✔</span> Solar heat </p>
-                            <p className='heading6'><span>✔</span> Storm windows</p>
-                            <p className='heading6'><span>✔</span> Tankless water heater</p>
-                            <p className='heading6'><span>✔</span> Ramps</p>
-                            <p className='heading6'> <span>✔</span> Whole house fan</p>
-                            <p className='heading6'><span>✔</span> Balcony</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Solar heat </p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Storm windows</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Tankless water heater</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Ramps</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"> <span>✔</span> Whole house fan</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Balcony</p>
                         </div>
                         <div className="col-md-3 listing">
-                            <p className='heading6'><span>✔</span> Surround sound </p>
-                            <p className='heading6'><span>✔</span> Separate shower</p>
-                            <p className='heading6'><span>✔</span> Fireplace</p>
-                            <p className='heading6'><span>✔</span> Rainshower heads</p>
-                            <p className='heading6'><span>✔</span> Wi-Fi</p>
-                            <p className='heading6'><span>✔</span> Built-in dressing vanities</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Surround sound </p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Separate shower</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Fireplace</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Rainshower heads</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Wi-Fi</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Built-in dressing vanities</p>
                         </div>
                     </div>
                 </div>
             </section>
 
             {/* Floor plans */}
-
             <section id='floor plan'>
                 <h4 className='heading10 mt-5 text-center' style={{ color: "black" }}> Floor Plans</h4>
                 <p className='primary-title heading4 text-center mt-4' >Lorem ipsum dolor sit amet, conse tetur elit</p>
-                <div className='text-center'>
+                <div className='text-center' data-aos="zoom-in-up" data-aos-duration="1000">
                     <img src={roadman} alt="" className='img-fluid ' />
                 </div>
 
             </section>
+
             <section >
                 <section class="common-padding pb-0" id="legal-services">
                     <div class="container">
@@ -322,62 +330,64 @@ export default function About() {
                     </div>
                 </section>
             </section>
+
             <section id='Gallery'>
                 <div className="">
                     <h4 className='heading10 mt-5 text-center' style={{ color: "black" }}> Photo Gallery</h4>
                     <p className='primary-title heading4 text-center mt-4' >Lorem ipsum dolor sit amet, conse tetur elit</p>
                     <div className="row mt-5 g-0 imagish">
-                        <div className="col-md-3">
+                        <div className="col-md-3" data-aos="zoom-in" data-aos-duration="700">
                             <img src={img10} alt="" className='img-fluid ' style={{ objectFit: "cover" }} />
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3" data-aos="zoom-in" data-aos-duration="700">
                             <img src={img11} alt="" className='img-fluid' style={{ objectFit: "cover" }} />
 
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3" data-aos="zoom-in" data-aos-duration="700">
                             <img src={img12} alt="" className='img-fluid' style={{ objectFit: "cover" }} />
 
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3" data-aos="zoom-in" data-aos-duration="700">
                             <img src={img13} alt="" className='img-fluid' style={{ objectFit: "cover" }} />
 
                         </div>
 
-                        <div className="col-md-3">
+                        <div className="col-md-3" data-aos="zoom-in" data-aos-duration="700">
                             <img src={img14} alt="" className='img-fluid' style={{ objectFit: "cover" }} />
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3" data-aos="zoom-in" data-aos-duration="700">
                             <img src={img15} alt="" className='img-fluid' style={{ objectFit: "cover" }} />
 
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3" data-aos="zoom-in" data-aos-duration="700"> 
                             <img src={img16} alt="" className='img-fluid' style={{ objectFit: "cover" }} />
 
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3" data-aos="zoom-in" data-aos-duration="700">
                             <img src={img17} alt="" className='img-fluid' style={{ objectFit: "cover" }} />
 
                         </div>
 
-                        <div className="col-md-3">
+                        <div className="col-md-3" data-aos="zoom-in" data-aos-duration="700">
                             <img src={img19} alt="" className='img-fluid' style={{ objectFit: "cover" }} />
 
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3" data-aos="zoom-in" data-aos-duration="700">
                             <img src={img20} alt="" className='img-fluid' style={{ objectFit: "cover " }} />
 
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3" data-aos="zoom-in" data-aos-duration="700">
                             <img src={img21} alt="" className='img-fluid' style={{ objectFit: "cover" }} />
 
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3" data-aos="zoom-in" data-aos-duration="700">
                             <img src={img22} alt="" className='img-fluid' style={{ objectFit: "cover" }} />
 
                         </div>
                     </div>
                 </div>
             </section>
+
             <section id='Contact'>
                 <section class="common-padding" id="location">
                     <div class="container">
@@ -413,7 +423,9 @@ export default function About() {
                     </div>
                 </section>
             </section>
+
             <Footer/>
+
             <Scroll/>
 
         </div>
