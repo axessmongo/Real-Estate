@@ -258,7 +258,9 @@ footer {
 .buy-now:hover{
   transform: scale(1.1);
 }
- 
+ .logo1{
+  width:120px;
+ }
 @keyframes blink{
   0%,
   100%{

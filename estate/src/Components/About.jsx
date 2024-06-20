@@ -27,6 +27,7 @@ import img22 from '../assets/images/img22.jpg'
 import img23 from '../assets/images/img23.jpg'
 import Footer from './Footer';
 import Scroll from './Scroll';
+import logo from '../assets/images/estate.png'
 export default function About() {
     const [active, setActive] = useState(false)
     useEffect(() => {
@@ -55,13 +56,13 @@ export default function About() {
 
     gotoTop();
     return (
-        <div id='overflow-x-hidden'>
+        <div>
 
             <section className='' id='home'>
                 <nav class="navbar navbar-expand-lg nav-banner" id=''>
                     <div class="container-fluid">
-                        <a class="navbar-brand heading5" href="#">Real<span style={{ color: "#f81f1f ", }}>Estate</span></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <a class="navbar-brand " href="index.html">
+                            <img src={logo}alt="logo" class="logo1"/></a>                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -129,8 +130,8 @@ export default function About() {
 
             <section id=''>
                 <div data-aos="zoom-in" data-aos-duration="1000" >
-                <h4 className='heading10 mt-5 text-center' style={{ color: "black" }}> Welcome To Houzez</h4>
-                <p className='primary-title heading4 text-center mt-4' >Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                    <h4 className='heading10 mt-5 text-center' style={{ color: "black" }}> Welcome To Houzez</h4>
+                    <p className='primary-title heading4 text-center mt-4' >Lorem ipsum dolor sit amet, consectetur adipiscing</p>
                 </div>
                 <div className="container">
                     <div className="col-md-12 row justify-content-center align-items-center mt-4">
@@ -359,7 +360,7 @@ export default function About() {
                             <img src={img15} alt="" className='img-fluid' style={{ objectFit: "cover" }} />
 
                         </div>
-                        <div className="col-md-3" data-aos="zoom-in" data-aos-duration="700"> 
+                        <div className="col-md-3" data-aos="zoom-in" data-aos-duration="700">
                             <img src={img16} alt="" className='img-fluid' style={{ objectFit: "cover" }} />
 
                         </div>
@@ -392,8 +393,8 @@ export default function About() {
                 <section class="common-padding" id="location">
                     <div class="container">
                         <div class="text-center">
-                        <h4 className='heading10 mt-5 text-center' style={{ color: "black" }}> Maps & Directions</h4>
-                    <p className='primary-title heading4 text-center mt-4' >Lorem ipsum dolor sit amet, conse tetur </p>
+                            <h4 className='heading10 mt-5 text-center' style={{ color: "black" }}> Maps & Directions</h4>
+                            <p className='primary-title heading4 text-center mt-4' >Lorem ipsum dolor sit amet, conse tetur </p>
                         </div>
                         <div class="row align-items-center g-5">
                             <div class="col-md-7">
@@ -401,7 +402,7 @@ export default function About() {
                                     data-aos-anchor-placement="bottom-bottom">
                                     <iframe
                                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!13887.7228006895866!2d80.24859830000001!3d12.9895733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d48aabc65c1%3A0x6f54da323bd9c8d0!2sATIT!5e0!3m2!1sen!2sin!4v1703158465961!5m2!1sen!2sin"
-                                       allowfullscreen="" loading="lazy" style={{ width:"100%", height:"450px", border:"0"}}
+                                        allowfullscreen="" loading="lazy" style={{ width: "100%", height: "450px", border: "0" }}
                                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 </div>
                             </div>
@@ -411,9 +412,9 @@ export default function About() {
                                         <div class="d-inline-block py-3 px-5 shadow-1 text-center col-10">
                                             <h4 class="new-header text-dark mb-2">Visit Us</h4>
                                             <p class="primary-text text-dark">xxxxxx,
-                                               <br/>
-                                               xxxxxxxx
-                                                
+                                                <br />
+                                                xxxxxxxx
+
                                                 Chennai - 600113.</p>
                                         </div>
                                     </div>
@@ -424,9 +425,9 @@ export default function About() {
                 </section>
             </section>
 
-            <Footer/>
+            <Footer />
 
-            <Scroll/>
+            <Scroll />
 
         </div>
 
