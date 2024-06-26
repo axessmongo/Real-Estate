@@ -54,7 +54,7 @@ export default function Footer() {
                         <div className='text-center '>
                             <h4 className='text-danger heading7 '>About Us</h4>
                             <div className=' pt-4 heading6'>
-                                <p>We are the top real estate agency in Sydney, with agents available to answer any question 24/7.</p>
+                                <p>We are the top real estate agency in Chennai, with agents available to answer any question 24/7.</p>
                             </div>
                         </div>
                     </div>

@@ -130,8 +130,8 @@ export default function About() {
 
             <section id=''>
                 <div data-aos="zoom-in" data-aos-duration="1000" >
-                    <h4 className='heading10 mt-5 text-center' style={{ color: "black" }}> Welcome To Houzez</h4>
-                    <p className='primary-title heading4 text-center mt-4' >Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                    <h4 className='heading10 mt-5 text-center' style={{ color: "black" }}> Welcome to Elite Estates</h4>
+                    <p className='primary-title heading4 text-center mt-4' >Your Dream Home Awaits</p>
                 </div>
                 <div className="container">
                     <div className="col-md-12 row justify-content-center align-items-center mt-4">
@@ -141,7 +141,8 @@ export default function About() {
                                     <img src={img4} class="card-img-top img10" alt="..." />
                                     <div class="card-body">
                                         <h5 class="card-title heading10 text-center mt-3">Renting</h5>
-                                        <p class="card-text primary-title heading4 mt-4" style={{ color: "black" }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                                        <p class="card-text primary-title heading4 mt-4" style={{ color: "black" }}>Find the perfect rental home with us. Affordable options, flexible terms, and personalized support for a
+                                        seamless renting experience.</p>
 
                                     </div>
                                 </div>
@@ -156,7 +157,8 @@ export default function About() {
                                     <img src={img5} class="card-img-top img10" alt="..." />
                                     <div class="card-body">
                                         <h5 class="card-title heading10 text-center mt-3">Buying</h5>
-                                        <p class="card-text mt-4 primary-title heading4 mt-4" style={{ color: "black" }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                                        <p class="card-text mt-4 primary-title heading4 mt-4" style={{ color: "black" }}>Discover your dream home with our expert guidance. Wide selection, competitive prices, and dedicated
+                                        support for a smooth buying process.</p>
 
                                     </div>
                                 </div>
@@ -170,7 +172,8 @@ export default function About() {
                                     <img src={img6} class="card-img-top img10" alt="..." />
                                     <div class="card-body">
                                         <h5 class="card-title heading10 text-center mt-3">Selling</h5>
-                                        <p class="card-text primary-title heading4 mt-4" style={{ color: "black" }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                                        <p class="card-text primary-title heading4 mt-4" style={{ color: "black" }}>Maximize your property's value with our selling expertise. Professional marketing, extensive network, and
+                                        personalized service for quick, profitable sales.</p>
 
                                     </div>
                                 </div>
@@ -238,36 +241,36 @@ export default function About() {
                 <div className="container ">
                     <div className="row justify-content-space-between align-items-center mt-3 px-5 gy-5 ">
                         <div className="col-md-3 listing">
-                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Washer and Dryer </p>
-                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Air Conditioning</p>
-                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Patio</p>
-                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Furniture</p>
-                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Hardwood Floors</p>
-                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Dishwasher</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> 24/7 Security </p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Power Backup</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Swimming Pool</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Gymnasium</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Clubhouse </p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Children's Play Area</p>
                         </div>
                         <div className="col-md-3 listing">
-                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Fireplace </p>
-                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Wi-Fi</p>
-                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Surround sound</p>
-                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Built-in dressing vanities</p>
-                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Separate shower</p>
-                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Rainshower heads</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Jogging Track </p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Indoor Games Room</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Landscaped Gardens</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Community Hall</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Intercom Facility</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Lift</p>
                         </div>
                         <div className="col-md-3 listing">
-                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Solar heat </p>
-                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Storm windows</p>
-                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Tankless water heater</p>
-                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Ramps</p>
-                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"> <span>✔</span> Whole house fan</p>
-                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Balcony</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Parking Space </p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Rainwater Harvesting</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Fire Safety Systems</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Wi-Fi Connectivity</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"> <span>✔</span> Multipurpose Court</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Senior Citizen Zone</p>
                         </div>
                         <div className="col-md-3 listing">
-                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Surround sound </p>
-                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Separate shower</p>
-                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Fireplace</p>
-                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Rainshower heads</p>
-                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Wi-Fi</p>
-                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Built-in dressing vanities</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Yoga and Meditation Area </p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Amphitheater</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Shopping Center</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> CCTV Surveillance</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Maintenance Staff</p>
+                            <p className='heading6' data-aos="fade-up" data-aos-duration="600"><span>✔</span> Waste Disposal System</p>
                         </div>
                     </div>
                 </div>
@@ -276,7 +279,7 @@ export default function About() {
             {/* Floor plans */}
             <section id='floor plan'>
                 <h4 className='heading10 mt-5 text-center' style={{ color: "black" }}> Floor Plans</h4>
-                <p className='primary-title heading4 text-center mt-4' >Lorem ipsum dolor sit amet, conse tetur elit</p>
+                <p className='primary-title heading4 text-center mt-4' >Thoughtfully designed layouts for maximum space and comfort.</p>
                 <div className='text-center' data-aos="zoom-in-up" data-aos-duration="1000">
                     <img src={roadman} alt="" className='img-fluid ' />
                 </div>
@@ -289,7 +292,7 @@ export default function About() {
                         <div class="text-center">
                             <h4 className='heading10 mt-5 text-center' style={{ color: "black" }}> Our Expertise</h4>
                             <p class="primary-title heading4 text-center mt-4" data-aos="fade-up" data-aos-duration="700">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, autem.</p>
+                            Providing exceptional real estate services with years of industry experience</p>
                         </div>
                         <div class="row gy-5 gy-md-0 text-center">
                             <div class="col-lg-12 col-12">
@@ -298,7 +301,8 @@ export default function About() {
                                         data-aos-anchor-placement="bottom-bottom">
                                         <h1 className='heading10 mt-5 text-center'>PROFESSIONAL
                                             REAL ESTATE AGENTS</h1>
-                                        <p class="primary-title heading4 text-center mt-4">Established in 1980, Detroit & Areas CO is now a locally owned third-generation real estate brokerage firm. Our firm is revolutionizing Commercial Real Estate Finance in ways that empower and enrich the richer.</p>
+                                        <p class="primary-title heading4 text-center mt-4">Established in 1980, we are now a locally owned, third-generation real estate brokerage firm. Our
+                                        company is revolutionizing commercial real estate finance in India, empowering and enriching our clients.</p>
                                     </div>
                                     <div class="col-md-6 p-md-0 order-1 order-md-2" data-aos="fade-up" data-aos-duration="500"
                                         data-aos-easing="ease-in-sine">
@@ -322,8 +326,10 @@ export default function About() {
                                     <div class="col-md-6" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-sine"
                                         data-aos-anchor-placement="bottom-bottom">
                                         <h1 class="heading10 mt-5 text-center">TOP SERVICES
-                                            IN DETROIT AREA</h1>
-                                        <p class="primary-title heading4 text-center mt-4">After decades at the forefront of Commercial Real Estate, our founders realized that commissions are not for mortgages.  So they set out to free the general population from the inflated commissions paid on each loan. .</p>
+                                            IN CHENNAI</h1>
+                                        <p class="primary-title heading4 text-center mt-4">With decades of experience in Commercial Real Estate, our founders recognized that
+commissions shouldn't burden mortgages. They dedicated themselves to liberating the people
+of Chennai from the inflated commissions typically paid on each loan.</p>
                                     </div>
                                 </div>
                             </div>
@@ -335,7 +341,7 @@ export default function About() {
             <section id='Gallery'>
                 <div className="">
                     <h4 className='heading10 mt-5 text-center' style={{ color: "black" }}> Photo Gallery</h4>
-                    <p className='primary-title heading4 text-center mt-4' >Lorem ipsum dolor sit amet, conse tetur elit</p>
+                    <p className='primary-title heading4 text-center mt-4' >Explore our captivating photo gallery showcasing our premier real estate listings.</p>
                     <div className="row mt-5 g-0 imagish">
                         <div className="col-md-3" data-aos="zoom-in" data-aos-duration="700">
                             <img src={img10} alt="" className='img-fluid ' style={{ objectFit: "cover" }} />
