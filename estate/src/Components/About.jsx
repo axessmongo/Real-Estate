@@ -9,8 +9,8 @@ import img4 from '../assets/images/img4.jpg'
 import img5 from '../assets/images/img5.jpg'
 import img6 from '../assets/images/img6.jpg'
 import roadman from '../assets/images/roadmap.jpg'
-import img8 from '../assets/images/img8.jpg'
-import img9 from '../assets/images/img9.jpeg'
+import img8 from '../assets/images/estste.jpg'
+import img9 from '../assets/images/reales.jpg'
 import img10 from '../assets/images/img10.jpg'
 import img11 from '../assets/images/img11.jpg'
 import img12 from '../assets/images/img12.jpg'
@@ -306,9 +306,9 @@ export default function About() {
                                     </div>
                                     <div class="col-md-6 p-md-0 order-1 order-md-2" data-aos="fade-up" data-aos-duration="500"
                                         data-aos-easing="ease-in-sine">
-                                        <img class="img-fluid"
+                                        <img class="w-100 img-fluid"
                                             src={img8}
-                                            style={{ objectFit: "cover" }}
+                                            style={{ objectFit: "cover"  }}
                                             alt="assets/imagesandvectors/legal-areas/legal1.jpg" />
                                     </div>
                                 </div>
@@ -317,7 +317,7 @@ export default function About() {
                                 <div class="row align-items-center g-3">
                                     <div class="col-md-6 p-md-0" data-aos="fade-up" data-aos-duration="500"
                                         data-aos-easing="ease-in-sine">
-                                        <img class="Legal-Services-img rounded-1 vh-50"
+                                        <img class="Legal-Services-img rounded-1 w-100"
                                             src={img9}
                                             className="img-fluid"
                                             style={{ objectFit: "cover" }}
