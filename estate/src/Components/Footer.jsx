@@ -59,7 +59,7 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-                <h5 className='text-center pb-2 mt-3 text-danger heading6'>realestate © 2021. All rights reserved</h5>
+                <h5 className='text-center pb-2 mt-3 text-danger heading6'>eliteEstate © 2021. All rights reserved</h5>
             </footer>
 
         </div>
