@@ -62,7 +62,7 @@ export default function About() {
                 <nav class="navbar navbar-expand-lg nav-banner" id=''>
                     <div class="container-fluid">
                         <a class="navbar-brand " href="index.html">
-                            <img src={logo}alt="logo" class="logo1"/></a>                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <img src={logo} alt="logo" class="logo1" /></a>                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -142,7 +142,7 @@ export default function About() {
                                     <div class="card-body">
                                         <h5 class="card-title heading10 text-center mt-3">Renting</h5>
                                         <p class="card-text primary-title heading4 mt-4" style={{ color: "black" }}>Find the perfect rental home with us. Affordable options, flexible terms, and personalized support for a
-                                        seamless renting experience.</p>
+                                            seamless renting experience.</p>
 
                                     </div>
                                 </div>
@@ -158,7 +158,7 @@ export default function About() {
                                     <div class="card-body">
                                         <h5 class="card-title heading10 text-center mt-3">Buying</h5>
                                         <p class="card-text mt-4 primary-title heading4 mt-4" style={{ color: "black" }}>Discover your dream home with our expert guidance. Wide selection, competitive prices, and dedicated
-                                        support for a smooth buying process.</p>
+                                            support for a smooth buying process.</p>
 
                                     </div>
                                 </div>
@@ -173,7 +173,7 @@ export default function About() {
                                     <div class="card-body">
                                         <h5 class="card-title heading10 text-center mt-3">Selling</h5>
                                         <p class="card-text primary-title heading4 mt-4" style={{ color: "black" }}>Maximize your property's value with our selling expertise. Professional marketing, extensive network, and
-                                        personalized service for quick, profitable sales.</p>
+                                            personalized service for quick, profitable sales.</p>
 
                                     </div>
                                 </div>
@@ -292,7 +292,7 @@ export default function About() {
                         <div class="text-center">
                             <h4 className='heading10 mt-5 text-center' style={{ color: "black" }}> Our Expertise</h4>
                             <p class="primary-title heading4 text-center mt-4" data-aos="fade-up" data-aos-duration="700">
-                            Providing exceptional real estate services with years of industry experience</p>
+                                Providing exceptional real estate services with years of industry experience</p>
                         </div>
                         <div class="row gy-5 gy-md-0 text-center">
                             <div class="col-lg-12 col-12">
@@ -302,13 +302,13 @@ export default function About() {
                                         <h1 className='heading10 mt-5 text-center'>PROFESSIONAL
                                             REAL ESTATE AGENTS</h1>
                                         <p class="primary-title heading4 text-center mt-4">Established in 1980, we are now a locally owned, third-generation real estate brokerage firm. Our
-                                        company is revolutionizing commercial real estate finance in India, empowering and enriching our clients.</p>
+                                            company is revolutionizing commercial real estate finance in India, empowering and enriching our clients.</p>
                                     </div>
                                     <div class="col-md-6 p-md-0 order-1 order-md-2" data-aos="fade-up" data-aos-duration="500"
                                         data-aos-easing="ease-in-sine">
                                         <img class="w-100 img-fluid"
                                             src={img8}
-                                            style={{ objectFit: "cover"  }}
+                                            style={{ objectFit: "cover" }}
                                             alt="assets/imagesandvectors/legal-areas/legal1.jpg" />
                                     </div>
                                 </div>
@@ -328,8 +328,8 @@ export default function About() {
                                         <h1 class="heading10 mt-5 text-center">TOP SERVICES
                                             IN CHENNAI</h1>
                                         <p class="primary-title heading4 text-center mt-4">With decades of experience in Commercial Real Estate, our founders recognized that
-commissions shouldn't burden mortgages. They dedicated themselves to liberating the people
-of Chennai from the inflated commissions typically paid on each loan.</p>
+                                            commissions shouldn't burden mortgages. They dedicated themselves to liberating the people
+                                            of Chennai from the inflated commissions typically paid on each loan.</p>
                                     </div>
                                 </div>
                             </div>
@@ -400,16 +400,21 @@ of Chennai from the inflated commissions typically paid on each loan.</p>
                     <div class="container">
                         <div class="text-center">
                             <h4 className='heading10 mt-5 text-center' style={{ color: "black" }}> Maps & Directions</h4>
-                            <p className='primary-title heading4 text-center mt-4' >Lorem ipsum dolor sit amet, conse tetur </p>
+                            {/* <p className='primary-title heading4 text-center mt-4' >Lorem ipsum dolor sit amet, conse tetur </p> */}
                         </div>
                         <div class="row align-items-center g-5">
                             <div class="col-md-7">
                                 <div class="map text-center" data-aos="zoom-in" data-aos-duration="600"
                                     data-aos-anchor-placement="bottom-bottom">
                                     <iframe
-                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!13887.7228006895866!2d80.24859830000001!3d12.9895733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d48aabc65c1%3A0x6f54da323bd9c8d0!2sATIT!5e0!3m2!1sen!2sin!4v1703158465961!5m2!1sen!2sin"
-                                        allowfullscreen="" loading="lazy" style={{ width: "100%", height: "450px", border: "0" }}
-                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15551.16339710412!2d80.2605652!3d12.98522505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d5b9b3bfc6f%3A0x6959f97669f90baa!2sThiruvanmiyur%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1719557938405!5m2!1sen!2sin"
+                                        width="600"
+                                        height="450"
+                                        style={{ border: 0 }}
+                                        allowFullScreen=""
+                                        loading="lazy"
+                                        referrerPolicy="no-referrer-when-downgrade"
+                                    ></iframe>
                                 </div>
                             </div>
                             <div class="col-md-5">
@@ -417,9 +422,9 @@ of Chennai from the inflated commissions typically paid on each loan.</p>
                                     <div class="card  border-0 justify-content-center align-items-center align-items-md-center">
                                         <div class="d-inline-block py-3 px-5 shadow-1 text-center col-10">
                                             <h4 class="new-header text-dark mb-2">Visit Us</h4>
-                                            <p class="primary-text text-dark">xxxxxx,
+                                            <p class="primary-text text-dark">
                                                 <br />
-                                                xxxxxxxx
+                                                No:123 Big cross st,
 
                                                 Chennai - 600113.</p>
                                         </div>
