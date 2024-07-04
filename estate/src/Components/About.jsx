@@ -424,9 +424,7 @@ export default function About() {
                                             <h4 class="new-header text-dark mb-2">Visit Us</h4>
                                             <p class="primary-text text-dark">
                                                 <br />
-                                                No:123 Big cross st,
-
-                                                Chennai - 600113.</p>
+                                                Chennai</p>
                                         </div>
                                     </div>
                                 </div>
